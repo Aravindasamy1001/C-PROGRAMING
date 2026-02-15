@@ -1,0 +1,10 @@
+#include<stdio.h>
+typedef unsigned char u8;
+int main(){
+
+u8 a=26;
+
+printf("typedef size of u8=%lu",sizeof (u8));
+
+return 0;
+}
