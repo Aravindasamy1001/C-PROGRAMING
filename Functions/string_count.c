@@ -7,12 +7,12 @@ void check(char *name,int n,int *vowels,int*consonats,int*space,int*digits){
 
 for(int i=0;i<n;i++){
 
-int nm=tolower(name[i]);
+char nm=tolower(name[i]);
 
 if(nm=='a'||nm=='e'||nm=='i'||nm=='o'||nm=='u'){
 (*vowels)++;
 }
-else if(nm >='a'&&nm<='z'){
+if(nm >='a'&&nm<='z'){
 (*consonats)++;
 }
 else if(nm==' '){
