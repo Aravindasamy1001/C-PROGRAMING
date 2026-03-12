@@ -1,14 +1,17 @@
 #include<stdio.h>
-#include "sum.h"
+#include "fact.h"
 
 int main(){
 
-int a=8;
-int b=5;
+int a;
 
-int result=sum(a,b);
+printf("enter a number for factorial:\n");
+scanf("%d",&a);
 
-printf("sum=%d\n",result);
+int value= factorial(a);
+
+printf("value of factorial=%d\n",value);
 
 return 0;
+
 }
