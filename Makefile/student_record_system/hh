@@ -1,1 +1,22 @@
+record_system
+│
+├── src
+│   ├── main.c
+│   └── student.c
+│
+├── obj
+│
+├── bin
+│
+├── student.h
+└── makefile
 
+read_write
+ ├── src
+ │   ├── main.c
+ │   └── file_ops.c
+ ├── include
+ │   └── file_ops.h
+ ├── obj
+ ├── bin
+ └── makefile
