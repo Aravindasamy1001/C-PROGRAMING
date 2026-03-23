@@ -21,6 +21,7 @@ switch(op) {
  case '/':
    printf("result=%d",a/b);
   break;
+  
 }
 return 0;
 }
