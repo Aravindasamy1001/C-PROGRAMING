@@ -13,7 +13,6 @@ inword=0;
 }
 p++;
 }
-
 }
 
 int main(){
