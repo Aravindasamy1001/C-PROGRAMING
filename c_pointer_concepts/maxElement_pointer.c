@@ -9,7 +9,6 @@ max=*(a+i);
 }
 }
 return max;
-
 }
 int main(){
 
