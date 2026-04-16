@@ -16,7 +16,6 @@ c=reverse(a,b);
 
 printf("after toggle the number:\n");
 printf("%d\n",c);
-
 return 0;
 
 }
