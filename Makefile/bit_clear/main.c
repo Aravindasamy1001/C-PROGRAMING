@@ -12,4 +12,5 @@ v=clear1(a,b);
 printf("bit clear from 15=%d\n",v);
 
 return 0;
+  
 }
