@@ -1,5 +1,6 @@
 .PHONY:all clean
 all:sum_program sub_program 
+
 sum_program:main.o sum.o	
 	gcc main.o sum.o -o sum_program
 sub_program:main1.o sub.o
