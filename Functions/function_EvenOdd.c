@@ -6,7 +6,8 @@ b=a&1;
 return b; 
 }
 
-int main(){
+int main()
+{
 
 int a,b;
 
