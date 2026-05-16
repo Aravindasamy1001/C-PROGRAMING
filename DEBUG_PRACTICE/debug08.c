@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 
 	unsigned int a = 0xffff;
 
