@@ -7,3 +7,4 @@ if(i==n)
 return ;
 fun(i+1,n);
 printf("%d",i);}
+
