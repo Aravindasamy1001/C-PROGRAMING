@@ -2,7 +2,7 @@
 
 int main() {
     
-    main();
+    main();//stack overflow, segmentaion fault
 
     return 0;
 }
