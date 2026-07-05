@@ -8,7 +8,6 @@ void fun(int n)
     printf("%d ", n);
     fun(n-1);
 }
-
 int main()
 {
     fun(3);
